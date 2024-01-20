@@ -78,6 +78,8 @@ JWT_AUTH_SECURE = True
 JWT_AUTH_REFRESH_COOKIE = 'my-refresh-token'
 USE_JWT = True
 
+REST_AUTH_SERIALIZERS = {'USER_DETAILS_SERIALIZER': 'hutch_hols.serializers.CurrentUserSerializer'}
+
 MIDDLEWARE = [
     "allauth.account.middleware.AccountMiddleware",
     "django.middleware.security.SecurityMiddleware",
