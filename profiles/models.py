@@ -12,7 +12,7 @@ class Profile(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=255, blank=True)
     profile_pic = models.ImageField(
-        upload_to='images/', default='../carpet_votyuu'
+        upload_to='images/', default='../default-avatar_qvwzg2'
     )
 
     class Meta:
