@@ -111,8 +111,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://hutchisonescapes-648ccfd97c23.herokuapp.com/",
-    "https://hutchihols-4c93c52221af.herokuapp.com/",
+    "https://hutchisonescapes-648ccfd97c23.herokuapp.com",
+    "https://hutchihols-4c93c52221af.herokuapp.com",
     "http://localhost:5173",
     "http://127.0.0.1:8000",
 ]
