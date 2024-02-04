@@ -115,6 +115,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://hutchihols-4c93c52221af.herokuapp.com",
     "http://localhost:5173",
     "http://127.0.0.1:8000",
+    "http://127.0.0.1:3000",
 ]
 
 # Add local development origin if CLIENT_ORIGIN_DEV is set
